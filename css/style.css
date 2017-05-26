@@ -14,6 +14,7 @@ body {
 body {
     display: block;
     margin: 8px;
+
 }
 
 header {
@@ -56,7 +57,6 @@ nav ul a {
     height: 250px;
     padding-top: 150px;
     width: 100%;
-    background: url(../images/doughnuts.jpg) fixed;
     background-size: cover;
     position: relative;
 }
@@ -93,7 +93,6 @@ footer .animation {
 .doughnut {
     height: 300px;
     width: 300px;
-    background: url(../images/footer-doughnut.png) no-repeat;
     display: inline-block;
     position: relative;
 }
@@ -112,6 +111,11 @@ footer .animation {
     cursor: pointer;
 }
 
+#blankbutton {
+  background-color: blue;
+  color: white;
+}
+
 #sprinkles {
     display: none;
     position: absolute;
@@ -121,5 +125,5 @@ footer .animation {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../images/sprinkles.png) no-repeat;
+
 }
