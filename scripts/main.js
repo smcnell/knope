@@ -2,13 +2,12 @@ console.log("hey?")
 
 
 function makeSprinkles(){
-	document.getElementById(".btn").toggleClass('show');
+	var x= document.getElementById("sprinkles")
+
+	if (x.style.display==="none"){
+		x.style.display= 'block';
+	} else {
+		x.style.display='none';
+	}
 }
 
-// $('.btn').click(function(){
-//   $('.sprinkles').toggleClass('show');
-// })
-
-// button.onClick= function(){
-// 	$('.sprinkles').toggleClass('show');
-// }

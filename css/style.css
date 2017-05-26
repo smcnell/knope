@@ -109,9 +109,10 @@ footer .animation {
     color: #fff;
     margin-bottom: 20px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
-.sprinkles {
+#sprinkles {
     display: none;
     position: absolute;
     height: 350px;
