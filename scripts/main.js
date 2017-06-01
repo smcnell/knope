@@ -40,12 +40,12 @@ function makeNewQuote(){
 
 	console.log(randomOne)
 
-
+randomQuote()
 	var myButton= document.getElementById("quoteButton");
 	var myQuoteInner= document.getElementById("quote")
 	myQuoteInner.innerHTML='"' + randomOne.text + '"'
 
-	randomQuote()
+
 
 
 
