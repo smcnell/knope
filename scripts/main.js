@@ -43,7 +43,7 @@ function makeNewQuote(){
 
 	var myButton= document.getElementById("quoteButton");
 	var myQuoteInner= document.getElementById("quote")
-	myQuoteInner.innerHTML=randomOne.text
+	myQuoteInner.innerHTML='"' + randomOne.text + '"'
 
 	randomQuote()
 
